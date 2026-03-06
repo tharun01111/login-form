@@ -1,17 +1,90 @@
-# React + Vite
+# React Login Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project implements a simple and clean **Login Form using React.js**.
+It demonstrates how to manage form data using React state and handle form submission with validation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The login form allows users to enter an **email and password**, validates that both fields are filled, and resets the form after submission.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Built with **React Functional Components**
+* Uses **React Hooks (`useState`)**
+* Simple **form validation**
+* Responsive and modern **CSS styling**
+* Clean and minimal UI design
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# login-form" 
+* React.js
+* JavaScript (ES6)
+* HTML5
+* CSS3
+
+## Project Structure
+
+```
+project-folder
+│
+├── src
+│   ├── components
+│   │   └── Login.jsx
+│   │
+│   ├── styles
+│   │   └── Login.css
+│   │
+│   └── App.js
+│
+└── README.md
+```
+
+## Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/react-login-form.git
+```
+
+2. Navigate to the project directory
+
+```
+cd react-login-form
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the project
+
+```
+npm start
+```
+
+The application will run at:
+
+```
+http://localhost:3000
+```
+
+## How It Works
+
+1. The user enters an **email and password**.
+2. The form submission is handled using the `submitForm` function.
+3. If either field is empty, an alert message appears.
+4. If both fields are filled, the form is cleared.
+
+## Future Improvements
+
+* Add backend authentication (Node.js / Express)
+* Implement JWT based login
+* Add password visibility toggle
+* Improve UI using TailwindCSS or Material UI
+
+## Author
+
+Tharun Adhithya
